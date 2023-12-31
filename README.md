@@ -1,6 +1,6 @@
 # Music Player App controlled by user movement
 
-##Project made in collaboration with [August Pratt](https://github.com/jpratt21)
+## Project made in collaboration with [August Pratt](https://github.com/jpratt21)
 
 ### [Try a demo!](https://appetize.io/app/2va72f4rcuub446rz5mn22ve6m?device=pixel7pro&osVersion=13.0)
 
