@@ -1,12 +1,93 @@
-# Music Player App controlled by user movement
+# Music Player App
 
-Project made in collaboration with [August Pratt](https://github.com/jpratt21)
+![App Demo](./media/preview.gif)
 
-### [Try a demo!](https://appetize.io/app/2va72f4rcuub446rz5mn22ve6m?device=pixel7pro&osVersion=13.0)
+## Overview
 
-[![Android_Studio](https://img.shields.io/badge/ANDROID_STUDIO-%234fae53?style=for-the-badge&logo=androidstudio&logoColor=%234fae53&labelColor=black)](https://developer.android.com/)
-[![Kotlin](https://img.shields.io/badge/KOTLIN-%237f52ff?style=for-the-badge&logo=kotlin&logoColor=%237f52ff&labelColor=black)](https://kotlinlang.org/)
-[![Firebase](https://img.shields.io/badge/FIREBASE-%23fecb2f?style=for-the-badge&logo=firebase&logoColor=%23fecb2f&labelColor=black)](https://firebase.google.com/)
-[![GPS](https://img.shields.io/badge/GPS-%2383c22d?style=for-the-badge&logo=googlemaps&logoColor=%2383c22d&labelColor=black)]()
+Project made in collaboration with [August Pratt](https://github.com/jpratt21). We wanted to create a music player app that controls the volume of the device with the speed of the user. 
 
-Android Studio Project developed in Kotlin using different technologies, such as Google Firebase or GPS tracking, for making a complete Music Player App that controls the device volume with the speed of the user. 
+This is an Android Studio Project developed in Kotlin, using a wide range of technologies such as Google Firebase, GPS location or Google Ads.   
+
+[![forthebadge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDguMDMxMzExMDM1MTU2MjUiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAxNDguMDMxMzExMDM1MTU2MjUgMzUiPjxyZWN0IHdpZHRoPSI4MC43MjkyMDIyNzA1MDc4MSIgaGVpZ2h0PSIzNSIgZmlsbD0iIzMxQzRGMyIvPjxyZWN0IHg9IjgwLjcyOTIwMjI3MDUwNzgxIiB3aWR0aD0iNjcuMzAyMTA4NzY0NjQ4NDQiIGhlaWdodD0iMzUiIGZpbGw9IiMzODlBRDUiLz48dGV4dCB4PSI0MC4zNjQ2MDExMzUyNTM5MDYiIHk9IjE3LjUiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSInUm9ib3RvJywgc2Fucy1zZXJpZiIgZmlsbD0iI0ZGRkZGRiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgYWxpZ25tZW50LWJhc2VsaW5lPSJtaWRkbGUiIGxldHRlci1zcGFjaW5nPSIyIj5UUlkgVEhFPC90ZXh0Pjx0ZXh0IHg9IjExNC4zODAyNTY2NTI4MzIwMyIgeT0iMTcuNSIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IidNb250c2VycmF0Jywgc2Fucy1zZXJpZiIgZmlsbD0iI0ZGRkZGRiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjkwMCIgYWxpZ25tZW50LWJhc2VsaW5lPSJtaWRkbGUiIGxldHRlci1zcGFjaW5nPSIyIj5ERU1PPC90ZXh0Pjwvc3ZnPg==)](https://appetize.io/app/2va72f4rcuub446rz5mn22ve6m?device=pixel7pro&osVersion=13.0)
+
+## Technologies Used
+
+[![Android_Studio](https://img.shields.io/badge/ANDROID_STUDIO-%234fae53?style=for-the-badge&logo=androidstudio&logoColor=white&labelColor=black)](https://developer.android.com/)
+[![Kotlin](https://img.shields.io/badge/KOTLIN-%237f52ff?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=black)](https://kotlinlang.org/)
+[![Firebase](https://img.shields.io/badge/FIREBASE-%23FFCA28?style=for-the-badge&logo=firebase&logoColor=white&labelColor=black&color=%23FFCA28)](https://firebase.google.com/)
+[![GPS](https://img.shields.io/badge/GPS-%4285F4?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=black)]()
+
+## Requirements
+
+For this project you will need a Google Ads ID credential which you can create and use [here](https://apps.admob.com/).
+
+![Google Ads ID](media/Google_Ads_ID.png)
+
+Furthermore, you will have to create and use your own Firebase database, importing your google-services.json or linking your project to Firebase in Android Studio. You will find more info [here](https://firebase.google.com/docs/android/setup).
+
+![Connect to Firebase](media/Connect_Firebase.png)
+
+## Project
+
+This is the general structure of the project.
+
+<ul>
+  <li>
+    Inside ./app/src/main/java/com/example/music_player/
+    <br>
+    <br>
+    <ul>
+      <li><b>MainActivity.kt</b>: Activity for the home page. Links the views from the xml with the functinallities of the app.</li>
+      <li><b>MusicActivity.kt</b>: Activity for the current song page. Links the views from the xml with the functinallities of the app.</li>
+      <li><b>SettingsActivity.kt</b>: Activity for the settings page. Links the views from the xml with the functinallities of the app.</li>
+      <li><b>GPSSpeed.kt</b>: Model for the speed tracking using the GPS from the device.</li>
+      <li><b>PlayerManager.kt</b>: Manager for the ExoPlayer. Useful for using the same media3 player in the whole app.</li>
+      <li><b>Song.kt</b>: Model for each song.</li>
+      <li><b>Songs.kt</b>: Model for a group of songs (ArrayList).</li>
+      <li><b>SongAdapter.kt</b>: Adapter for the recycler view in the home page. Retrieves all the songs and adds the necessary funcionallity.</li>
+    </ul>
+  </li>
+  <li>
+    Inside ./app/src/main/res/
+    <br>
+    <br>
+    <ul>
+      <li><b>drawable</b>: folder in which all the images/icons are stored.</li>
+      <li><b>layout</b>: all the xml files necessary for the views of the app.</li>
+      <li><b>transition</b>: all the xml files used for the transitions between layouts.</li>
+      <li><b>values</b>: inside, there are folders for the strings, colors and themes used in the app.</li>
+    </ul>
+  </li>
+  <li>
+    Inside ./app/src/main/
+    <br>
+    <br>
+    <ul>
+      <li><b>AndroidManifest.xml</b>: Stores the necessary permissions for the app to run. Also, all the activities are declared in this file.</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+## Installation
+
+1. `Fork` this repository.
+   
+2. Clone this repository in your Android Studio projects folder.
+```bash 
+git clone https://github.com/<USERNAME>/adeviento-web.git
+```
+
+3. Open the MusicPlayerApp with Android Studio.
+
+4. Add your own Firebase database (google-services.json) and credentials for Google Ads (in AndroidManifest.xml). 
+
+5. Run the project in an emulator or an actual android physical device.
+
+## License
+
+[![License](https://img.shields.io/badge/LICENSE-MIT-%23FFCA28?style=for-the-badge&logoColor=white&labelColor=black&color=%23808080
+)](LICENSE)
