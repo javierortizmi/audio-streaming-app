@@ -1,6 +1,6 @@
 # Music Player App
 
-![App Demo](./media/preview.gif)
+<a href="https://appetize.io/app/2va72f4rcuub446rz5mn22ve6m?device=pixel7pro&osVersion=13.0"><img src="./media/preview.gif" width="300" alt="App Demo"></a>
 
 ## Overview
 
