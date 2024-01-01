@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "281621400159",
+    "firebase_url": "https://servermusicplayerapp-default-rtdb.firebaseio.com",
+    "project_id": "servermusicplayerapp",
+    "storage_bucket": "servermusicplayerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281621400159:android:676a97badc64f70d04e9ea",
+        "android_client_info": {
+          "package_name": "com.example.music_player"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3VZUsS0jOOskgRFYkZtRoTch3jdiH7a0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281621400159:android:203d6172180e341b04e9ea",
+        "android_client_info": {
+          "package_name": "com.javierortizmi.finalprojectv1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3VZUsS0jOOskgRFYkZtRoTch3jdiH7a0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
