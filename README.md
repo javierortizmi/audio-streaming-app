@@ -70,26 +70,20 @@ This is the general structure of the project.
   </li>
 </ul>
 
-
-
-
-
 ## Installation
 
-1. `Clone` this repository.
-   
-2. Download this repository in your Android Studio projects folder.
+1. `Clone` this repository into your Android Studio projects folder.
+
 ```bash 
 git clone https://github.com/javierortizmi/MusicPlayerApp.git
 ```
 
-3. Open the MusicPlayerApp with Android Studio.
+2. Open the MusicPlayerApp with Android Studio.
 
-4. Add your own Firebase database (google-services.json) and credentials for Google Ads (in AndroidManifest.xml). 
+3. Add your own Firebase database (google-services.json) and credentials for Google Ads (in AndroidManifest.xml). 
 
-5. Run the project in an emulator or an actual android physical device.
+4. Run the project in an emulator or an actual android physical device.
 
 ## License
 
-[![License](https://img.shields.io/badge/LICENSE-MIT-%23FFCA28?style=for-the-badge&logoColor=white&labelColor=black&color=%23808080
-)](LICENSE)
+[![License](https://img.shields.io/badge/LICENSE-MIT-%23FFCA28?style=for-the-badge&logoColor=white&labelColor=black&color=%23808080)](LICENSE)
