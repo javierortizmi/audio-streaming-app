@@ -39,14 +39,14 @@ This is the general structure of the project.
     <br>
     <br>
     <ul>
-      <li><b>MainActivity.kt</b>: Activity for the home page. Links the views from the xml with the functionallities of the app.</li>
-      <li><b>MusicActivity.kt</b>: Activity for the current song page. Links the views from the xml with the functionallities of the app.</li>
-      <li><b>SettingsActivity.kt</b>: Activity for the settings page. Links the views from the xml with the functionallities of the app.</li>
+      <li><b>MainActivity.kt</b>: Activity for the home page. Links the views from the xml with the functionalities of the app.</li>
+      <li><b>MusicActivity.kt</b>: Activity for the current song page. Links the views from the xml with the functionalities of the app.</li>
+      <li><b>SettingsActivity.kt</b>: Activity for the settings page. Links the views from the xml with the functionalities of the app.</li>
       <li><b>GPSSpeed.kt</b>: Model for the speed tracking using the GPS from the device.</li>
       <li><b>PlayerManager.kt</b>: Manager for the ExoPlayer. Useful for using the same media3 player in the whole app.</li>
       <li><b>Song.kt</b>: Model for each song.</li>
       <li><b>Songs.kt</b>: Model for a group of songs (ArrayList).</li>
-      <li><b>SongAdapter.kt</b>: Adapter for the recycler view in the home page. Retrieves all the songs and adds the necessary funcionallity.</li>
+      <li><b>SongAdapter.kt</b>: Adapter for the recycler view in the home page. Retrieves all the songs and adds the necessary functionality.</li>
     </ul>
   </li>
   <li>
@@ -76,11 +76,11 @@ This is the general structure of the project.
 
 ## Installation
 
-1. `Fork` this repository.
+1. `Clone` this repository.
    
-2. Clone this repository in your Android Studio projects folder.
+2. Download this repository in your Android Studio projects folder.
 ```bash 
-git clone https://github.com/<USERNAME>/adeviento-web.git
+git clone https://github.com/javierortizmi/MusicPlayerApp.git
 ```
 
 3. Open the MusicPlayerApp with Android Studio.
