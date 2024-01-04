@@ -37,9 +37,9 @@ This is the general structure of the project.
     <br>
     <br>
     <ul>
-      <li><b>MainActivity.kt</b>: Activity for the home page. Links the views from the xml with the functinallities of the app.</li>
-      <li><b>MusicActivity.kt</b>: Activity for the current song page. Links the views from the xml with the functinallities of the app.</li>
-      <li><b>SettingsActivity.kt</b>: Activity for the settings page. Links the views from the xml with the functinallities of the app.</li>
+      <li><b>MainActivity.kt</b>: Activity for the home page. Links the views from the xml with the functionallities of the app.</li>
+      <li><b>MusicActivity.kt</b>: Activity for the current song page. Links the views from the xml with the functionallities of the app.</li>
+      <li><b>SettingsActivity.kt</b>: Activity for the settings page. Links the views from the xml with the functionallities of the app.</li>
       <li><b>GPSSpeed.kt</b>: Model for the speed tracking using the GPS from the device.</li>
       <li><b>PlayerManager.kt</b>: Manager for the ExoPlayer. Useful for using the same media3 player in the whole app.</li>
       <li><b>Song.kt</b>: Model for each song.</li>
