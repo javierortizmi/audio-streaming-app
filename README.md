@@ -8,7 +8,7 @@ Project made in collaboration with [August Pratt](https://github.com/jpratt21). 
 
 This is an Android Studio Project developed in Kotlin, using a wide range of technologies such as Google Firebase, GPS location or Google Ads.   
 
-[![forthebadge](https://img.shields.io/badge/TRY%20THE-DEMO-blue?style=for-the-badge&logoColor=white&labelColor=%23545454&color=%238983e6)](https://appetize.io/app/2va72f4rcuub446rz5mn22ve6m?device=pixel7pro&osVersion=13.0)
+[![DEMO](https://img.shields.io/badge/TRY%20THE-DEMO-blue?style=for-the-badge&logoColor=white&labelColor=%23545454&color=%238983e6)](https://appetize.io/app/2va72f4rcuub446rz5mn22ve6m?device=pixel7pro&osVersion=13.0)
 
 ## Technologies Used
 
@@ -16,6 +16,8 @@ This is an Android Studio Project developed in Kotlin, using a wide range of tec
 [![Kotlin](https://img.shields.io/badge/KOTLIN-%237f52ff?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=black)](https://kotlinlang.org/)
 [![Firebase](https://img.shields.io/badge/FIREBASE-%23FFCA28?style=for-the-badge&logo=firebase&logoColor=white&labelColor=black&color=%23FFCA28)](https://firebase.google.com/)
 [![GPS](https://img.shields.io/badge/GPS-%4285F4?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=black)]()
+[![Google_Ads](https://img.shields.io/badge/Google%20ads-%234285F4?style=for-the-badge&logo=googleads&logoColor=white&labelColor=black)](https://ads.google.com/)
+
 
 ## Requirements
 
