@@ -8,7 +8,7 @@ Project made in collaboration with [August Pratt](https://github.com/jpratt21). 
 
 This is an Android Studio Project developed in Kotlin, using a wide range of technologies such as Google Firebase, GPS location or Google Ads.
 
-[![DEMO](https://img.shields.io/badge/TRY%20THE-DEMO-blue?style=for-the-badge&logoColor=white&labelColor=%23545454&color=%238983e6)](https://appetize.io/app/2va72f4rcuub446rz5mn22ve6m?device=pixel7pro&osVersion=13.0)
+[![DEMO](https://img.shields.io/badge/TRY%20THE-DEMO-blue?style=for-the-badge&logoColor=white&labelColor=%23545454&color=%238983e6)](https://appetize.io/app/2va72f4rcuub446rz5mn22ve6m?audio=true&device=pixel7pro&osVersion=13.0)
 
 ## Technologies Used
 
